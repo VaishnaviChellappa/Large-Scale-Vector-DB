@@ -5,7 +5,7 @@ import pytrec_eval
 # Paths to your queries and qrels file
 QUERIES_FILE = "queries.txt"
 QRELS_FILE = "qrels.txt"
-EC2_ENDPOINT = "http://<your-ec2-endpoint>:5000/search"
+EC2_ENDPOINT = "http://ec2-endpoint>:5000/search"
 TOP_K = 10  # number of results to retrieve per query
 
 def load_queries(queries_file):
